@@ -20,6 +20,13 @@ Install the dependencies listed in requirements.txt using pip or a similar tool.
 python3 app.py
 ```
 
+## Configure your API key (recommended)
+Create a `.env` file in the project root and set:
+```
+GROQ_API_KEY=your_key_here
+```
+The `.env` file is ignored by git, so your key will not be committed.
+
 Once running, the API will be available at:
 ```
 http://localhost:8000/api/v1/itinerary
